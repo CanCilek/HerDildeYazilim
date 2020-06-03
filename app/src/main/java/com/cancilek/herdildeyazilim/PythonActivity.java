@@ -22,7 +22,6 @@ public class PythonActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.listView);
 
-
         final ArrayList<String> KonuIcerik = new ArrayList<>();
         KonuIcerik.add("DEĞİŞKENLER");
         KonuIcerik.add("EKRAN ÇIKTISI");

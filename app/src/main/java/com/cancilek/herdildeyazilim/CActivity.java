@@ -22,7 +22,6 @@ public class CActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.listView);
 
-
         final ArrayList<String> KonuIcerik = new ArrayList<>();
         KonuIcerik.add("DEĞİŞKENLER");
         KonuIcerik.add("EKRAN ÇIKTISI");
@@ -34,22 +33,15 @@ public class CActivity extends AppCompatActivity {
         KonuIcerik.add("FONKSİYONLAR");
 
         final ArrayList<String> CIcerik = new ArrayList<>();
-        CIcerik.add("Değişkenler\n" +
-                        "\n" +
-                        "Değişkenler bilgisayarın geçici belleğinde bilginin saklandığı gözlere verilen sembolik adlardır. Bir C programında, bir değişken tanımlandığında bu değişken için bellekte bir yer ayrılır. Her değişkenin tuttuğu değerin nasıl bir veri olduğunu gösteren bir veri tipi vardır.\n" +
-                        "\n" +
-                        "Değişkenler tanımlanırken bazı kurallara uymak zorunludur. Bunlar;\n" +
-                        "\n" +
+        CIcerik.add("Değişkenler\n" + "\n" +"Değişkenler bilgisayarın geçici belleğinde bilginin saklandığı gözlere verilen sembolik adlardır. Bir C programında, bir değişken tanımlandığında bu değişken için bellekte bir yer ayrılır. Her değişkenin tuttuğu değerin nasıl bir veri olduğunu gösteren bir veri tipi vardır.\n" + "\n" +
+                        "Değişkenler tanımlanırken bazı kurallara uymak zorunludur. Bunlar;\n" + "\n" +
                         "Değişken adları en fazla 32 karakterden oluşabilir. 32 karakterden uzun değişken adları ilk\n" +
-                        "32 karakteri değerlendirilir. Geriye kalan karakterler işleme tabi tutulmaz.\n" +
-                        "\n" +
+                        "32 karakteri değerlendirilir. Geriye kalan karakterler işleme tabi tutulmaz.\n" + "\n" +
                         "Değişken adları ingiliz alfabesinde bulunan karakterler (A-Z) veya (a-z) yada rakamlar (0–9)\n" +
-                        "ile yazılmalıdır. Türkçe karakterler, özel karakter veya boşluk karakteri kullanılamaz.\n" +
-                        "\n" +
+                        "ile yazılmalıdır. Türkçe karakterler, özel karakter veya boşluk karakteri kullanılamaz.\n" + "\n" +
                         "Değişken adları herhangi bir rakam ile başlayamaz. Ilk karakter bir harf olmalıdır.\n" +
                         "Sonrakiler rakamlardan oluşabilir."+
-                        "Veri tipi (data type) program içinde kullanılacak değişken, sabit gibi tanımlayıcıların tipini ve bellekte ayrılacak bölgenin boyutunu belirlemek için kullanılır. C programlama dilinde dört tane temel veri tipi bulunmaktadır.\n" +
-                        "\n" +
+                        "Veri tipi (data type) program içinde kullanılacak değişken, sabit gibi tanımlayıcıların tipini ve bellekte ayrılacak bölgenin boyutunu belirlemek için kullanılır. C programlama dilinde dört tane temel veri tipi bulunmaktadır.\n" + "\n" +
                         "Tamsayılar — int (0, 1, 10, -1 ,-58)\n" +
                         "Karakterler — char (a, b, x)\n" +
                         "Mantıksal — false == 0, true != 0\n" +

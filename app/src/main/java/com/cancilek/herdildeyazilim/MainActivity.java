@@ -22,13 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.listView);
 
-
         final ArrayList<String> DilIsimleri = new ArrayList<>();
         DilIsimleri.add("PYTHON");
         DilIsimleri.add("C#");
         DilIsimleri.add("JAVA");
         DilIsimleri.add("C");
-
+        DilIsimleri.add("HAKKINDA");
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this,android.R.layout.simple_list_item_1,DilIsimleri);
         listView.setAdapter(arrayAdapter);
@@ -38,20 +37,19 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
                 if (i == 0){
                     Intent intent = new Intent(getApplicationContext(),PythonActivity.class);
-                    startActivity(intent);
-                }
+                    startActivity(intent); }
                 else if (i==1){
                     Intent intent = new Intent(getApplicationContext(),CSharpActivity.class);
-                    startActivity(intent);
-                }
+                    startActivity(intent); }
                 else if (i==2){
                     Intent intent = new Intent(getApplicationContext(),JavaActivity.class);
-                    startActivity(intent);
-                }
+                    startActivity(intent); }
                 else if (i==3){
                     Intent intent = new Intent(getApplicationContext(),CActivity.class);
-                    startActivity(intent);
-                }
+                    startActivity(intent); }
+                else if (i==4){
+                    Intent intent = new Intent(getApplicationContext(),Hakkinda.class);
+                    startActivity(intent); }
 
 
 

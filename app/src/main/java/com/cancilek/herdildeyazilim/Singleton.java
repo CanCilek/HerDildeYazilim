@@ -1,6 +1,6 @@
 package com.cancilek.herdildeyazilim;
 
-import android.graphics.Bitmap;
+        import android.graphics.Bitmap;
 
 public class Singleton {
 
